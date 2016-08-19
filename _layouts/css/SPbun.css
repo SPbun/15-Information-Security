@@ -1,0 +1,86 @@
+*{margin: 0;}
+
+@font-face{
+	font-family: love;
+	src:word-family/segoe script.ttf;
+	font-weight: ;
+	font-style: ;
+}
+
+ul.nav{margin: 0;}
+
+#head-nav{margin: 0;}
+
+.header-img
+{
+	width:100%;
+	border-radius: 70%;
+	margin:0 auto
+}
+
+.middle-img
+{
+	width:100%;
+	height: 20em;
+}
+
+.bg
+{
+	position: absolute;
+	z-index: -2;
+}
+
+#header
+{
+	position: absolute;
+	border-radius: 50%;
+	margin:0 auto;
+	left: 40%;
+	top:5em;
+	text-align: center;
+	width: 20%;
+}
+
+.name
+{
+	font-size: 1.5em;
+	font-family:love; 
+}
+
+.mixture
+{
+	position:relative; 
+}
+
+#heart
+{
+	text-align: center;
+	color: red;
+	background-color: #FFFAFA;
+}
+
+.passage
+{	
+	position: absolute;
+	top: 20em;
+	text-align: left;
+	z-index: -3;
+	margin: 5em;
+	border-image:url(pic/heart.png) 30 30 round; 
+	
+}
+
+.word{
+	background-color: #F5FFFA;
+	border-radius: 2%;
+	font-size: 1.2em;
+	line-height: 200%;
+}
+
+#myaudio{	
+	position: relative;
+	height: 2em;
+	width: 2em;
+	left: 10%；
+	top:500px;
+}
